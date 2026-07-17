@@ -1,13 +1,16 @@
 const express = require("express");
+
 const router = express.Router();
 
-router.route("/").get((req, res) => {
-    res.json({ "message": "Get all the contacts" });
-});
+// importing getcontact api call from controller..
+const { getContact } = require("../controllers/contactController");
 
-router.route("/").post((req, res) => {
-    res.json({ "message": "Create contacts" });
-});
+
+router.route("/").get(getContact);
+
+// using import getcontact here ..
+
+router.route("/").post();
 
 router.route("/:id").put((req, res) => {
     res.json({ "message": `update contact for ${req.params.id}` });
