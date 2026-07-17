@@ -1,0 +1,20 @@
+{
+  "name": "mycontacts-backend-api",
+  "version": "1.0.0",
+  "description": "this is a express project",
+  "homepage": "https://github.com/farhad-mahmud/Contact-manager-app#readme",
+  "bugs": {
+    "url": "https://github.com/farhad-mahmud/Contact-manager-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farhad-mahmud/Contact-manager-app.git"
+  },
+  "license": "MIT",
+  "author": "farhad",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
